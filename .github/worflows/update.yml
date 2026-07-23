@@ -1,0 +1,33 @@
+name: Mise à jour automatique des livres
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # Tous les jours à 03:00
+  workflow_dispatch:       # Permet de lancer manuellement
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le repo
+        uses: actions/checkout@v3
+
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Lancer le scraper
+        run: python scrape_lbf.py
+
+      - name: Commit & Push des mises à jour
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Mise à jour automatique de rare_books.txt"
+          git push
