@@ -1,8 +1,6 @@
-name: Mise à jour automatique des livres
+name: Mise à jour automatique des livres (DÉSACTIVÉ - Lancer localement)
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
