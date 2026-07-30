@@ -1,0 +1,121 @@
+{
+  "last_update": "2026-07-30T14:03:05.534761",
+  "total_books": 5,
+  "books": [
+    {
+      "titre": "Le Seigneur des Anneaux - La Communauté",
+      "auteur": "J.R.R. Tolkien",
+      "isbn": "9782253031963",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 15.5,
+          "count": 12,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 13.0,
+          "count": 8,
+          "delay": 10
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Harry Potter à l'école des sorciers",
+      "auteur": "J.K. Rowling",
+      "isbn": "9782070524609",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 12.0,
+          "count": 25,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 10.5,
+          "count": 15,
+          "delay": 8
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les Misérables",
+      "auteur": "Victor Hugo",
+      "isbn": "9782070364602",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 18.0,
+          "count": 7,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 14.5,
+          "count": 4,
+          "delay": 12
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Comte de Monte Cristo",
+      "auteur": "Alexandre Dumas",
+      "isbn": "9782070368761",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 22.0,
+          "count": 5,
+          "delay": 8
+        },
+        "lbc": {
+          "price": 18.0,
+          "count": 2,
+          "delay": 15
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Peste",
+      "auteur": "Albert Camus",
+      "isbn": "9782070368761",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 11.0,
+          "count": 18,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 9.5,
+          "count": 6,
+          "delay": 11
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    }
+  ]
+}
