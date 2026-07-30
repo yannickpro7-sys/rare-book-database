@@ -41,8 +41,9 @@ def scrape_lbf():
                 print(f"Tentative {attempt + 1}/{MAX_RETRIES} échouée. Nouvelle tentative dans {RETRY_DELAY}s...")
                 time.sleep(RETRY_DELAY)
             else:
-                print(f"Erreur : impossible de se connecter après {MAX_RETRIES} tentatives.")
-                raise
+                print(f"Avertissement : impossible de se connecter après {MAX_RETRIES} tentatives.")
+                print("Le workflow continue sans mise à jour (le site peut bloquer les IP de GitHub Actions).")
+                return  # Exit gracefully without error
 
     soup = BeautifulSoup(response.text, "html.parser")
 
