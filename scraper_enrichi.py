@@ -26,31 +26,86 @@ HEADERS = {
 }
 
 def parse_rare_books():
-    """Parse rare_books.txt et retourne liste de livres avec ISBN"""
+    """Parse rare_books.txt et retourne liste de livres avec ISBN.
+
+    Robust parsing: détecte ISBN via regex même si le séparateur '|' manque.
+    Retourne une liste de dicts: titre, auteur, isbn, rare
+    """
+    isbn_re = re.compile(r"\b(97[89]\d{10}|\d{9}[\dXx])\b")
     books = []
     try:
         with open(RARE_BOOKS_FILE, 'r', encoding='utf-8') as f:
             for line in f:
-                line = line.strip()
+                raw = line.strip()
                 # Skip comments and empty lines
-                if not line or line.startswith('#'):
+                if not raw or raw.startswith('#'):
                     continue
-                
-                # Parse format: Titre | Auteur | ISBN
-                parts = [p.strip() for p in line.split('|')]
-                if len(parts) >= 3:
-                    books.append({
-                        'titre': parts[0],
-                        'auteur': parts[1],
-                        'isbn': parts[2],
-                        'rare': True
-                    })
+
+                # Try to find ISBN anywhere in the line
+                m = isbn_re.search(raw)
+                if not m:
+                    # try to find ISBN-like substrings with trailing letters
+                    m2 = re.search(r"(97[89][0-9]{10}[A-Za-z0-9]*|[0-9]{9}[0-9Xx][A-Za-z0-9]*)", raw)
+                    if m2:
+                        isbn = re.sub(r"[^0-9Xx]", "", m2.group())
+                    else:
+                        # Skip lines without detectable ISBN
+                        continue
+                else:
+                    isbn = m.group(0)
+
+                # Split the line at the ISBN to get metadata before it
+                parts_before = raw.split(isbn)[0].strip()
+
+                # Prefer explicit '|' delimiter when present
+                if '|' in parts_before:
+                    parts = [p.strip() for p in parts_before.split('|') if p.strip()]
+                    titre = parts[0] if parts else parts_before
+                    auteur = parts[1] if len(parts) > 1 else 'Auteur inconnu'
+                elif ' - ' in parts_before:
+                    parts = [p.strip() for p in parts_before.split(' - ') if p.strip()]
+                    titre = parts[0]
+                    auteur = parts[1] if len(parts) > 1 else 'Auteur inconnu'
+                else:
+                    # Fallback: try to remove trailing numbers/edition markers
+                    # e.g., 'Titre ... 1' -> remove trailing digit groups
+                    titre_guess = re.sub(r"\s+\d+$", "", parts_before).strip()
+                    # If the string contains commas and a capitalized word after comma, assume author at end
+                    if ',' in titre_guess:
+                        pieces = [p.strip() for p in titre_guess.split(',') if p.strip()]
+                        # If last piece looks like a name (has space or capitalized), treat as author
+                        if len(pieces) > 1 and re.search(r"[A-ZÀ-ÖØ-Ý][a-zà-öø-ÿ]", pieces[-1]):
+                            auteur = pieces[-1]
+                            titre = ', '.join(pieces[:-1])
+                        else:
+                            titre = titre_guess
+                            auteur = 'Auteur inconnu'
+                    else:
+                        titre = titre_guess
+                        auteur = 'Auteur inconnu'
+
+                books.append({
+                    'titre': titre,
+                    'auteur': auteur,
+                    'isbn': isbn,
+                    'rare': True
+                })
     except FileNotFoundError:
         print(f"Erreur: {RARE_BOOKS_FILE} non trouvé")
         return []
-    
-    print(f"✅ {len(books)} livres rares chargés")
-    return books
+
+    # Deduplicate by ISBN
+    seen = set()
+    unique_books = []
+    for b in books:
+        key = b['isbn']
+        if key in seen:
+            continue
+        seen.add(key)
+        unique_books.append(b)
+
+    print(f"{len(unique_books)} livres rares chargés (apres deduplication)")
+    return unique_books
 
 def scrape_ebay_listings(isbn):
     """
