@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-07-30T14:03:05.534761",
-  "total_books": 5,
+  "last_update": "2026-07-30T14:11:17.402379",
+  "total_books": 95,
   "books": [
     {
-      "titre": "Le Seigneur des Anneaux - La Communauté",
-      "auteur": "J.R.R. Tolkien",
-      "isbn": "9782253031963",
+      "titre": "Toutes les morts de Laila Starr Ram V 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9791026823032",
       "rare": true,
       "channels": {
         "ebay": {
-          "price": 15.5,
-          "count": 12,
-          "delay": 5
+          "price": 38.58,
+          "count": 17,
+          "delay": 3
         },
         "lbc": {
-          "price": 13.0,
-          "count": 8,
-          "delay": 10
+          "price": 29.37,
+          "count": 17,
+          "delay": 3
         }
       },
       "listing_priority": [
@@ -26,20 +26,20 @@
       "best_channel": "ebay"
     },
     {
-      "titre": "Harry Potter à l'école des sorciers",
-      "auteur": "J.K. Rowling",
-      "isbn": "9782070524609",
+      "titre": "La grande épopée de Picsou Tome 6",
+      "auteur": "Les évadés de la Vallée interdite. Et autres histoires Don Rosa 1",
+      "isbn": "9782344003985",
       "rare": true,
       "channels": {
         "ebay": {
-          "price": 12.0,
+          "price": 55.36,
           "count": 25,
           "delay": 3
         },
         "lbc": {
-          "price": 10.5,
-          "count": 15,
-          "delay": 8
+          "price": 46.0,
+          "count": 17,
+          "delay": 7
         }
       },
       "listing_priority": [
@@ -49,41 +49,219 @@
       "best_channel": "ebay"
     },
     {
-      "titre": "Les Misérables",
-      "auteur": "Victor Hugo",
-      "isbn": "9782070364602",
+      "titre": "L'Arpenteur de la Lune Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070568154",
       "rare": true,
       "channels": {
         "ebay": {
-          "price": 18.0,
-          "count": 7,
-          "delay": 6
+          "price": 5.17,
+          "count": 4,
+          "delay": 17
         },
         "lbc": {
-          "price": 14.5,
+          "price": 6.6,
+          "count": 10,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Thoan, la Saga des hommes-dieux Intégrale Philip José Farmer 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782354086145",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 36.34,
           "count": 4,
+          "delay": 8
+        },
+        "lbc": {
+          "price": 30.67,
+          "count": 9,
           "delay": 12
         }
       },
       "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le Collier Maléfique Dave Morris 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070583812",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 10.3,
+          "count": 16,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 10.36,
+          "count": 7,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
         "ebay",
         "lbc"
       ],
       "best_channel": "ebay"
     },
     {
-      "titre": "Le Comte de Monte Cristo",
-      "auteur": "Alexandre Dumas",
-      "isbn": "9782070368761",
+      "titre": "Les fondamentaux de l'attelage. La référence : du débutant au meneur confirmé Laurence Grard Guenard 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782851808776",
       "rare": true,
       "channels": {
         "ebay": {
-          "price": 22.0,
+          "price": 14.51,
+          "count": 24,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 12.77,
+          "count": 13,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Alma Cizia Zykë 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782372580465",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 16.68,
+          "count": 13,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 17.74,
+          "count": 14,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le Voleur d'Ames Steve Jackson, Ian Livingstone 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335305",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 39.64,
+          "count": 16,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Nouvelle équitation centrée",
+      "auteur": "Aller plus loin... Sally Swift 1",
+      "isbn": "9782843045721",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 23.99,
           "count": 5,
           "delay": 8
         },
         "lbc": {
-          "price": 18.0,
+          "price": 21.95,
+          "count": 19,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le Chasseur de Mages Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070592265",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 14.29,
+          "count": 9,
+          "delay": 12
+        },
+        "lbc": {
+          "price": 12.43,
+          "count": 1,
+          "delay": 16
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Citadelle du Chaos Steve Jackson 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070332687",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 51.52,
+          "count": 23,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 39.41,
+          "count": 12,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Cuisine algerienne Fatima-zohra BOUAYED 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782731802979",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 28.38,
+          "count": 11,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 28.02,
           "count": 2,
           "delay": 15
         }
@@ -95,19 +273,260 @@
       "best_channel": "ebay"
     },
     {
-      "titre": "La Peste",
-      "auteur": "Albert Camus",
-      "isbn": "9782070368761",
+      "titre": "Le grimoire de mercotte : les gâteaux oubliés du meilleur pâtissier Mercotte 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782359851649",
       "rare": true,
       "channels": {
         "ebay": {
-          "price": 11.0,
-          "count": 18,
+          "price": 32.81,
+          "count": 19,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 33.73,
+          "count": 1,
+          "delay": 14
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les anges ne jouent pas de cette haarp Nick Begich, Jeane Manning, Liliane Roth 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782892392494",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 33.25,
+          "count": 13,
           "delay": 4
         },
         "lbc": {
-          "price": 9.5,
-          "count": 6,
+          "price": 27.33,
+          "count": 19,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La véritable histoire de noël Marko Leino 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782749922317",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 18.76,
+          "count": 23,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 18.43,
+          "count": 13,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Soulagez votre cheval aux doigts ( et à l'œil ! ) Dominique Giniaux 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782904971495",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 9.44,
+          "count": 9,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Boulangerie végétale",
+      "auteur": "By Land&Monkeys Rodolphe Landemaine, Pierre Javelle (photographie) 3",
+      "isbn": "9782501154505",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 34.18,
+          "count": 23,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 31.86,
+          "count": 19,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Captive Tome 1",
+      "auteur": "-  Edition collector Sarah Rivens 1",
+      "isbn": "9782017207009",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 17.23,
+          "count": 4,
+          "delay": 18
+        },
+        "lbc": {
+          "price": 19.18,
+          "count": 11,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le travail aux longues rênes. Manipulation et acquisition de la dextérité, 3 niveaux d'apprentissage pour tous Laurence Grard Guenard 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782851809537",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 22.65,
+          "count": 16,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 23.62,
+          "count": 1,
+          "delay": 20
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Légende de Zagor Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070585151",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 18.74,
+          "count": 9,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 15.67,
+          "count": 5,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Une source inépuisable de paix et de guérison : exercices de méditation pour éveiller l'esprit et gu Tulku Thondup 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782702904237",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 48.07,
+          "count": 24,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 42.36,
+          "count": 1,
+          "delay": 17
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Grand Manuel du Traiteur",
+      "auteur": "Pour recevoir comme personne Mélanie Dupuis 6",
+      "isbn": "9782501122931",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 10.28,
+          "count": 4,
+          "delay": 17
+        },
+        "lbc": {
+          "price": 8.07,
+          "count": 1,
+          "delay": 18
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La flore d'Europe occidentale Marjorie Blamey 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782082009959",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 16.61,
+          "count": 25,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "L'Elu des Six Clans Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335923",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 40.0,
+          "count": 27,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 35.6,
+          "count": 2,
           "delay": 11
         }
       },
@@ -116,6 +535,1627 @@
         "lbc"
       ],
       "best_channel": "ebay"
+    },
+    {
+      "titre": "Luthiers et guitares d'en france Klaus Blasquiz 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782911962004",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 6.72,
+          "count": 6,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 5.86,
+          "count": 1,
+          "delay": 20
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Aristote au Mont Saint-Michel : Les racines grecques de l'Europe chrétienne Sylvain Gouguenheim 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782020965415",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 32.83,
+          "count": 12,
+          "delay": 7
+        },
+        "lbc": {
+          "price": 31.13,
+          "count": 7,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le regard des sens Juhani Pallasmaa 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782910342685",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 32.81,
+          "count": 19,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 33.74,
+          "count": 12,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Harry potter et le prisonnier d'azkaban J.k. Rowling 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070541300",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 11.09,
+          "count": 22,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 11.16,
+          "count": 13,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La grande épopée de Picsou Tome 7",
+      "auteur": "Le retour du chevalier noir et autres histoires Don Rosa 1",
+      "isbn": "9782344003992",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 32.78,
+          "count": 9,
+          "delay": 11
+        },
+        "lbc": {
+          "price": 27.21,
+          "count": 19,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le monde de l'inconnu, tout sur les fantômes Robert-Jean Courtine 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782863110072",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 18.5,
+          "count": 20,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 17.29,
+          "count": 17,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Aimer voir, petits et grands moments de l'histoire de l'art Hector Obalk 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782754105880",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 24.99,
+          "count": 20,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 24.47,
+          "count": 14,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "GUIDE DU MYTHE DE CTHULHU. Cahier d'études lovecraftiennes, VI Patrice Allart 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782251741024",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.64,
+          "count": 15,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 39.6,
+          "count": 4,
+          "delay": 19
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Amsterdam zombie Cizia Zykë 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782253140603",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 33.15,
+          "count": 2,
+          "delay": 20
+        },
+        "lbc": {
+          "price": 34.55,
+          "count": 9,
+          "delay": 12
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Sel Gras Acide Chaleur",
+      "auteur": "Apprenez à cuisiner avec n'importe quel ingrédient, n'importe où, n'importe quand, sans recette ! Samin Nosrat 1",
+      "isbn": "9782812303616",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 52.71,
+          "count": 20,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 38.91,
+          "count": 15,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Voyage de la Pierre de Lune Joe Dever 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070587674",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 17.91,
+          "count": 5,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 10.55,
+          "count": 2,
+          "delay": 20
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 7",
+      "auteur": "Une affaire de glace et autres histoires (1956-1957) Carl Barks 1",
+      "isbn": "9782723488891",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 17.54,
+          "count": 5,
+          "delay": 11
+        },
+        "lbc": {
+          "price": 20.07,
+          "count": 11,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La Nuit des Mutants Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335855",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 10.77,
+          "count": 8,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 8.43,
+          "count": 14,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Yoga thérapeutique BKS Iyengar 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782842215996",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 15.68,
+          "count": 30,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 9.48,
+          "count": 20,
+          "delay": 1
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les Collines Maléfiques Steve Jackson 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070332939",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 13.61,
+          "count": 15,
+          "delay": 7
+        },
+        "lbc": {
+          "price": 11.36,
+          "count": 19,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Histoires de fous Cizia Zykë 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782253143543",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 14.34,
+          "count": 28,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 15.44,
+          "count": 18,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Manoir de l'Enfer Steve Jackson 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070332861",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 11.02,
+          "count": 15,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 7.33,
+          "count": 13,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le grand livre des techniques de grappling Cyril Rousseau, Stéphane Weiss 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782851808837",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 33.55,
+          "count": 13,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 32.19,
+          "count": 1,
+          "delay": 10
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "L'anatomie pour les sculpteurs : et les character designers, illustrateurs et animateurs 3d Uldis Zarins 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782212675320",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 21.46,
+          "count": 30,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 15.94,
+          "count": 4,
+          "delay": 10
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les Chevaliers du Destin Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070587667",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 11.33,
+          "count": 12,
+          "delay": 7
+        },
+        "lbc": {
+          "price": 10.79,
+          "count": 17,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Sahara Cizia ZYKË 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782010118814",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.93,
+          "count": 7,
+          "delay": 8
+        },
+        "lbc": {
+          "price": 57.32,
+          "count": 1,
+          "delay": 14
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Cheval",
+      "auteur": "qui es-tu ? Marie-France Bouissou,  Frédéric Chéhu, Michel-Antoine Leblanc 3",
+      "isbn": "9782701136080",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.79,
+          "count": 24,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 35.06,
+          "count": 12,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Sceptre Noir Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070336074",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 29.11,
+          "count": 2,
+          "delay": 20
+        },
+        "lbc": {
+          "price": 20.93,
+          "count": 11,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Dans les Entrailles de Torgar Joe Dever 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335381",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 8.15,
+          "count": 25,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 7.56,
+          "count": 7,
+          "delay": 8
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Dressage. Construire et optimiser ses mises en selle Jean-Franck Girard 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782701144832",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 30.35,
+          "count": 13,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Parodie Cizia Zykë 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782253046424",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 16.89,
+          "count": 30,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 12.42,
+          "count": 13,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "L'art de la négociation Donald Trump 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782377352760",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 26.38,
+          "count": 21,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 32.71,
+          "count": 10,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Terreur sur l'Orient-Express : Campagne de l'Appel de Cthulhu Geof Gillan 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782740800683",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 13.23,
+          "count": 14,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 10.45,
+          "count": 7,
+          "delay": 11
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le combat des loups Joe Dever 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070662296",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 17.73,
+          "count": 7,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 16.29,
+          "count": 19,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Cuisine Algérienne Fatima Zohra Bouayed 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782010200175",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 22.28,
+          "count": 27,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 22.21,
+          "count": 19,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La grande épopée de Picsou Tome 5",
+      "auteur": "Le trésor de Crésus Don Rosa 1",
+      "isbn": "9782344003978",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 39.76,
+          "count": 21,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 35.4,
+          "count": 9,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "L'art du faux Pierre Finkelstein 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782840491651",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 35.75,
+          "count": 12,
+          "delay": 7
+        },
+        "lbc": {
+          "price": 30.57,
+          "count": 20,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 15",
+      "auteur": "Intégrale Carl Barks (1964-1965) Carl Barks 1",
+      "isbn": "9782344003107",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.74,
+          "count": 1,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 31.54,
+          "count": 15,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La mine en France : histoire industrielle et sociale Angdm, Michel Pascal, Luc Rousseau 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782354751319",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 31.38,
+          "count": 5,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 28.93,
+          "count": 15,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 17",
+      "auteur": "24 heures pour survivre ! et autres histoires (1969-2008) Carl Barks 1",
+      "isbn": "9782344003688",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 32.12,
+          "count": 22,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 25.13,
+          "count": 17,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le dressage du chien de troupeau Etienne Serclérat, Michele Serclérat 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782732880211",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 39.05,
+          "count": 13,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 41.95,
+          "count": 18,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le guide des mouvements du MMA Yovan Delourme 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782490269013",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 33.47,
+          "count": 17,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 31.93,
+          "count": 12,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "41 mensonges équestres qui vous empêchent de progresser Laurent Fumet 2",
+      "auteur": "Auteur inconnu",
+      "isbn": "9781537643922",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 65.5,
+          "count": 2,
+          "delay": 20
+        },
+        "lbc": {
+          "price": 52.51,
+          "count": 19,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Grand livre de cuisine d'alain ducasse. bistrots, brasseries et restaurants de tradition Alain Ducasse 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782848440125",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 47.91,
+          "count": 12,
+          "delay": 5
+        },
+        "lbc": {
+          "price": 40.99,
+          "count": 19,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Parodie Cizia ZYKË 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782010123382",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 36.7,
+          "count": 5,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 26.56,
+          "count": 7,
+          "delay": 8
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La grande épopée de Picsou Tome 2",
+      "auteur": "La jeunesse de Picsou 2/2 Don Rosa 1",
+      "isbn": "9782723494939",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 33.49,
+          "count": 9,
+          "delay": 9
+        },
+        "lbc": {
+          "price": 29.05,
+          "count": 5,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le livre rouge Carl Gustav Jung 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782352041412",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 18.95,
+          "count": 7,
+          "delay": 12
+        },
+        "lbc": {
+          "price": 13.03,
+          "count": 3,
+          "delay": 13
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 10",
+      "auteur": "Le champion de la fortune ! et autres histoires (1959-1960) Carl Barks 1",
+      "isbn": "9782723492980",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 24.51,
+          "count": 1,
+          "delay": 12
+        },
+        "lbc": {
+          "price": 22.53,
+          "count": 8,
+          "delay": 12
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La grande épopée de Picsou Intégrale Don Rosa",
+      "auteur": "Tome 3, Le fils du soleil et autres histoires Don Rosa 1",
+      "isbn": "9782723498029",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 22.71,
+          "count": 18,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 15.16,
+          "count": 10,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La réponse",
+      "auteur": "Lancez n'importe quelle entreprise, atteignez l'indépendance financière et vivez une vie extraordinaire John Assaraf, Murray Smith 1",
+      "isbn": "9782761926614",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 24.18,
+          "count": 3,
+          "delay": 11
+        },
+        "lbc": {
+          "price": 25.57,
+          "count": 18,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La Galaxie Tragique Steve Jackson 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070332700",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 37.06,
+          "count": 15,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 40.63,
+          "count": 1,
+          "delay": 20
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Grand dictionnaire de cuisine Alexandre Dumas 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782859406844",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 29.7,
+          "count": 13,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 27.14,
+          "count": 8,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Vengeance des Démons Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335947",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 28.17,
+          "count": 6,
+          "delay": 9
+        },
+        "lbc": {
+          "price": 31.03,
+          "count": 1,
+          "delay": 11
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Porte d'Ombre Joe Dever 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070569649",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 15.94,
+          "count": 30,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 15.74,
+          "count": 4,
+          "delay": 20
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le tunnel et la lumière : pour une gestion sereine de la souffrance Claude Leclerc 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782894661277",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 44.65,
+          "count": 26,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 33.92,
+          "count": 1,
+          "delay": 12
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le Justicier de l'Univers Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070335299",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 41.31,
+          "count": 1,
+          "delay": 16
+        },
+        "lbc": {
+          "price": 45.15,
+          "count": 19,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "L'architecture invisible Georges Prat 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782906588653",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 41.22,
+          "count": 30,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 47.04,
+          "count": 17,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Deux chevaux pour un cavalier : l'extraordinaire exploit de milkhaïl vasilievitch aseev L.v. Evdokimov 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782828905071",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 63.28,
+          "count": 16,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 40.34,
+          "count": 18,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Clovis le Chevalier Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070336104",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 34.3,
+          "count": 4,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 26.82,
+          "count": 2,
+          "delay": 19
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les Codes Secrets du Tarot",
+      "auteur": "Volume 1",
+      "isbn": "9789995769000",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 17.74,
+          "count": 29,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 16.67,
+          "count": 17,
+          "delay": 5
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 6",
+      "auteur": "Rencontre avec les Cracs-badaboums et autres histoires Carl Barks 1",
+      "isbn": "9782723487863",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 35.83,
+          "count": 20,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 30.93,
+          "count": 11,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 8",
+      "auteur": "La ville aux toits d'or et autres histoires (1957-1958) Carl Barks 1",
+      "isbn": "9782723489003",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 27.56,
+          "count": 24,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 21.13,
+          "count": 7,
+          "delay": 9
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Approche de la kinésithérapie du cheval Jean-Marie Denoix, Jean-Pierre Pailloux 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782224018672",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.08,
+          "count": 4,
+          "delay": 17
+        }
+      },
+      "listing_priority": [
+        "ebay"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La Dernière Invasion Simon Farrell, Jon Sutherland 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070334162",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 36.82,
+          "count": 21,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 44.41,
+          "count": 10,
+          "delay": 7
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Cela n'a pas commencé avec toi !. Comment le trauma familial façonne nos identités et comment s'en sortir Mark Wolynn 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782491552060",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 13.36,
+          "count": 4,
+          "delay": 13
+        },
+        "lbc": {
+          "price": 8.32,
+          "count": 20,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 14",
+      "auteur": "La Couronne des Mayas et autres histoires (1963-1964) Carl Barks 1",
+      "isbn": "9782344001547",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 41.71,
+          "count": 18,
+          "delay": 7
+        },
+        "lbc": {
+          "price": 39.92,
+          "count": 4,
+          "delay": 10
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Les Mondes de l'Aleph Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070579631",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 32.92,
+          "count": 10,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 27.69,
+          "count": 4,
+          "delay": 9
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La dynastie Donald Duck Tome 11",
+      "auteur": "Le peuple du cratère en péril et autres histoires (1960-1961) Carl Barks 1",
+      "isbn": "9782723492997",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 28.4,
+          "count": 16,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 19.3,
+          "count": 12,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Lothar le Sorcier Steve Jackson, Ian Livingstone 4",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070336098",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 16.88,
+          "count": 10,
+          "delay": 6
+        },
+        "lbc": {
+          "price": 13.98,
+          "count": 3,
+          "delay": 8
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le complot contre Michael Jackson : la vérité sur le procès Aphrodite Jones 5",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782357260009",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 8.78,
+          "count": 21,
+          "delay": 1
+        },
+        "lbc": {
+          "price": 7.37,
+          "count": 14,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "MikBook. Les cahiers de l'internat Mikaël Guedj 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782818317297",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 57.79,
+          "count": 30,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 38.47,
+          "count": 10,
+          "delay": 3
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Le sol, la terre et les champs, pour retrouver une agriculture saine Claude Bourguignon 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782869853263",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 46.55,
+          "count": 21,
+          "delay": 4
+        },
+        "lbc": {
+          "price": 46.72,
+          "count": 9,
+          "delay": 8
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "James Bond, l'espion qui aimait les montres Frédéric Liévain 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782749148113",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 38.65,
+          "count": 1,
+          "delay": 18
+        },
+        "lbc": {
+          "price": 34.07,
+          "count": 12,
+          "delay": 6
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
+    },
+    {
+      "titre": "Le Repaire des Morts Vivants Steve Jackson, Ian Livingstone 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782070566051",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 16.79,
+          "count": 29,
+          "delay": 3
+        },
+        "lbc": {
+          "price": 13.86,
+          "count": 3,
+          "delay": 11
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "La cuisine du comté de Nice Jacques Medecin 3",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782260000259",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 38.67,
+          "count": 29,
+          "delay": 2
+        },
+        "lbc": {
+          "price": 32.17,
+          "count": 12,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "ebay",
+        "lbc"
+      ],
+      "best_channel": "ebay"
+    },
+    {
+      "titre": "Lorsque les chevaux se révèlent : de la première rencontre à l'ami pour la vie Klaus Ferdinand Hempfling 1",
+      "auteur": "Auteur inconnu",
+      "isbn": "9782711416400",
+      "rare": true,
+      "channels": {
+        "ebay": {
+          "price": 45.53,
+          "count": 6,
+          "delay": 10
+        },
+        "lbc": {
+          "price": 32.1,
+          "count": 20,
+          "delay": 4
+        }
+      },
+      "listing_priority": [
+        "lbc",
+        "ebay"
+      ],
+      "best_channel": "lbc"
     }
   ]
 }
