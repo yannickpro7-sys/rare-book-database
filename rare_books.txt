@@ -1,5 +1,5 @@
 # Liste des livres recherchés (Bouquin Français)
-# Format : Titre | Auteur | ISBN
+# Format : Titre | Auteur | ISBN | Rareté | Dernière_Mise_à_Jour
 
 Toutes les morts de Laila Starr Ram V 1 | Auteur inconnu | 9791026823032
 La grande épopée de Picsou Tome 6 | Les évadés de la Vallée interdite. Et autres histoires Don Rosa 1 | 9782344003985
