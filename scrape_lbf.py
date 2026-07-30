@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import time
 
 URL = "https://lebouquinfrancais.fr/livres-recherches.php"
 OUTPUT = "rare_books.txt"
@@ -8,6 +9,9 @@ OUTPUT = "rare_books.txt"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 }
+
+MAX_RETRIES = 3
+RETRY_DELAY = 5  # seconds
 
 # Détection ISBN
 def extract_isbn(text):
@@ -27,7 +31,19 @@ def clean_text(t):
 def scrape_lbf():
     print("Scraping Le Bouquin Français...")
 
-    response = requests.get(URL, headers=HEADERS)
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.get(URL, headers=HEADERS, timeout=10)
+            response.raise_for_status()
+            break
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            if attempt < MAX_RETRIES - 1:
+                print(f"Tentative {attempt + 1}/{MAX_RETRIES} échouée. Nouvelle tentative dans {RETRY_DELAY}s...")
+                time.sleep(RETRY_DELAY)
+            else:
+                print(f"Erreur : impossible de se connecter après {MAX_RETRIES} tentatives.")
+                raise
+
     soup = BeautifulSoup(response.text, "html.parser")
 
     rows = soup.find_all("tr")
